@@ -6,10 +6,16 @@
     <title>Document</title>
 <style>
     body{
-        background-image: url("src/surfboard.png");
-        background-position: right top;
-        background-repeat: no-repeat;
-        background-size:contain;
+        background: url("src/tree.png") no-repeat right top;
+        background-attachment: scroll ;
+    }
+    a {
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+        border-top-right-radius: 20%;
+       /* border-radius: 3px;*/
+        border-bottom-left-radius: 20%;
+        padding-left: 6px;
     }
 </style>
 
@@ -17,15 +23,15 @@
 <body>
 <header>
     <div>
-        <ul>
+        <ul style="list-style-type:none">
             <li>
-                <a href="">Main</a>
+               <p><a href="">Main</a></p>
             </li>
             <li>
-                <a href="image-test.html">Image test</a>
+               <p><a href="image-test.html">Image test</a></p>
             </li>
             <li>
-                <a href="">Contacts</a>
+                <p><a href="">Contacts</a></p>
             </li>
         </ul>
     </div>
