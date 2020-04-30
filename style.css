@@ -1,3 +1,39 @@
-ul{
+a {
+    padding-left: 6px;
+}
+a:link{
+    color: white;
+
+    text-decoration:  none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration:  none;
+}
+a:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;/*
+    background-color: brown;
+    overflow: hidden;
+    float:left;*/
+    color: white;
+}
+li {/*
+    float: left;*/
+    padding: 5px ;
+}
+div:hover p.v2{
+    display:block;
+}
+p.v2{
+    display: none;
 }

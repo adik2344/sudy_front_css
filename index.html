@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 <style>
     body{
         background: url("src/tree.png") no-repeat right top;
         background-attachment: scroll ;
     }
-    a {
+    /*a {
         padding-left: 6px;
     }
     a:link{
@@ -42,22 +43,46 @@
         float: left;
         padding: 5px ;
     }
+    div:hover p.v2{
+        display:block;
+    }
+    p.v2{
+        display: none;
+    }*/
 </style>
 
 </head>
 <body>
     <div>
         <ul>
-            <li>
-               <p><a href="#index.html">Main</a></p>
+            <li class="v1">
+               <p class="visible1"><a href="#index.html">Main</a></p>
             </li>
             <li>
-               <p><a href="image-test.html">Image test</a></p>
+               <p class="v2"><a href="image-test.html">Image test</a></p>
             </li>
             <li>
-                <p><a href="l_layout.html">l_layout</a></p>
+                <p class="v3"><a href="l_layout.html">l_layout</a></p>
+            </li>
+            <li>
+                <p><a href="bootstrap 3.html">bootstrap</a></p>
             </li>
         </ul>
     </div>
+    <footer>
+        <div >
+            <ul>
+                <li>
+                    <p>Contacs</p>                
+                </li>
+                <li>
+                    <p><a href="mailto:adik2344@gmail.com">mailto:adik2344@gmail.com</a></p>
+                </li>
+                <li>
+                    <p><a href="http://gorod.dp.ua" target="_blank" rel="noopener noreferrer"></a></p>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
