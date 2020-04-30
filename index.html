@@ -10,33 +10,54 @@
         background-attachment: scroll ;
     }
     a {
-        border-left: 2px solid black;
-        border-top: 2px solid black;
-        border-top-right-radius: 20%;
-       /* border-radius: 3px;*/
-        border-bottom-left-radius: 20%;
         padding-left: 6px;
+    }
+    a:link{
+        color: white;
+
+        text-decoration:  none;
+    }
+    a:visited{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: green;
+        text-decoration:  underline;
+    }
+    a:active{
+        color: green;
+        text-decoration: underline;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: brown;
+        overflow: hidden;
+        float:left;
+        color: white;
+    }
+    li {
+        float: left;
+        padding: 5px ;
     }
 </style>
 
 </head>
 <body>
-<header>
     <div>
-        <ul style="list-style-type:none">
+        <ul>
             <li>
-               <p><a href="">Main</a></p>
+               <p><a href="#index.html">Main</a></p>
             </li>
             <li>
                <p><a href="image-test.html">Image test</a></p>
             </li>
             <li>
-                <p><a href="">Contacts</a></p>
+                <p><a href="l_layout.html">l_layout</a></p>
             </li>
         </ul>
     </div>
-</header>
-
-
 </body>
 </html>
