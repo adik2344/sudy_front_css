@@ -18,8 +18,8 @@ a:active{
     color: whitesmoke;
     text-decoration: none;
 }
-ul {
-    list-style-type: none;
+ul#menu li{
+    display: inline;
     margin: 0;
     padding: 0;/*
     background-color: brown;
@@ -27,9 +27,8 @@ ul {
     float:left;*/
     color: white;
 }
-div:nth-child()
 li {/*
-    float: left;*/
+    float: left;
     padding: 5px ;
 }
 div:hover p.v2{
@@ -37,4 +36,31 @@ div:hover p.v2{
 }
 p.v2{
     display: none;
+}*/
+footer{
+    position: relative;
+    bottom:2em;
 }
+/* div my version */
+.cont-title{
+background-color: teal;
+border: none;
+font-family: 'Courier New', Courier, monospace;
+margin-inline-start: auto;
+line-height: 20%;
+}
+.cont-radio{
+    background-color: thistle;
+    border: 1px solid;
+    stroke-width: 10% ;
+
+}
+.cont-sum{
+    background-color: thistle;
+    border: 1px solid;
+}
+.cont-cont{
+    background-color: thistle;
+    text-align: center;
+}
+
