@@ -27,6 +27,7 @@ ul {
     float:left;*/
     color: white;
 }
+div:nth-child()
 li {/*
     float: left;*/
     padding: 5px ;
